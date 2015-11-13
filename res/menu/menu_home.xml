@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_home_search"
+        android:icon="@drawable/selector_home_search"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_search"/>
+        <!--
+    <item
+        android:id="@+id/menu_home_message"
+        android:icon="@drawable/message_selector"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_message"/>
+
+    <item
+        android:id="@+id/menu_home_history"
+        android:icon="@drawable/selector_home_search"
+        android:showAsAction="ifRoom"
+        android:actionViewClass="android.widget.SearchView"
+        android:title="@string/menu_history"/>
+    -->
+
+</menu>

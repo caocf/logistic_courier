@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_bg"
+    android:orientation="vertical" >
+
+    <include layout="@layout/view_simple_custom_header_2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="42dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/activity_order_search_txt_query"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:imeOptions="actionSearch"
+            android:paddingBottom="@dimen/edit_text_padding_bottom"
+            android:paddingLeft="@dimen/edit_text_padding_left_right"
+            android:paddingRight="@dimen/edit_text_padding_left_right"
+            android:background="@drawable/selector_text_input_line"
+            android:drawableLeft="@drawable/search_order"
+            android:hint="@string/order_search_tips"
+            style="@style/text_style_15_black"
+            android:textColorHint="@color/text_color_hint"
+            android:textCursorDrawable="@null" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/activity_order_search_btn_query"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="33dp"
+            android:background="@drawable/selector_btn_bg"
+            android:text="Query"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+</LinearLayout>

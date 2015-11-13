@@ -1,0 +1,168 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <style name="CustomDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+    </style>
+    
+    <style name="CustomProgressDialog" parent="@style/CustomDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <!-- 自定义主题 -->
+    <style name="Theme.MyTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:dropDownListViewStyle">@style/Theme.MyListView</item>
+        <item name="android:windowAnimationStyle">@style/activityAnimation</item>
+    </style>
+
+    <style name="Theme.AppCompat.Light.NoActionBar" parent="@style/Theme.AppCompat.Light">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+        <style name="Theme.MyListView" parent="@android:style/Widget.Holo.Light.ListView">
+        <item name="android:listSelector">@drawable/item_selector</item>
+    </style>
+    
+    <!-- animation 样式 -->
+    <style name="activityAnimation" parent="@android:style/Animation">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_right_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_left_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_left_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_right_out</item>
+    </style>
+    <!-- 自定义主题 -->
+    
+    <!-- 自定义loading dialog -->
+    <style name="loading_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="text_style_15_464a57">
+        <item name="android:textColor">@color/c_464a57</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="text_style_15_666666">
+        <item name="android:textColor">@color/c_666666</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="text_style_14_8e8e8e">
+        <item name="android:textColor">@color/c_8e8e8e</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="text_style_15_8e8e8e">
+        <item name="android:textColor">@color/c_8e8e8e</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="text_style_15_bebebe">
+        <item name="android:textColor">@color/c_bebebe</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="text_style_13_bebebe">
+        <item name="android:textColor">@color/c_bebebe</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="text_style_12_white">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="text_style_15_white">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="text_style_16_white">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="text_style_18_white">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="text_style_20_white">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="text_style_12_black">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="text_style_13_black">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="text_style_15_black">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="text_style_16_black">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="text_style_18_black">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="text_style_20_black">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="CustomRightRadioBtn" mce_bogus="1">
+        <item name="android:button">@null</item>
+        <item name="android:textColor">@color/c_464a57</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:minHeight">35dp</item>
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:drawableLeft">@drawable/selector_radio_button</item>
+    </style>
+    
+    <style name="edit_text_style" parent="android:Widget.EditText">
+        <item name="android:background">@drawable/selector_text_input_line</item>
+    </style>
+
+    <!-- 选择头像时，dialog的弹出风格，从下面弹出，消失时再慢慢收回 -->
+    <style name="dialog_anima_style_portrait" parent="android:Animation">
+        <item name="@android:windowEnterAnimation">@anim/anima_portrait_dialog_enter</item>
+        <item name="@android:windowExitAnimation">@anim/anima_portrait_dialog_exit</item>
+    </style>
+
+</resources>

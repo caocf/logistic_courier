@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="integer" name="google_gms_version">7571000</item>
+    <item type="integer" name="gles_version">0x00020000</item>
+    <item type="integer" name="google_map_default_zoomlevel">16</item>
+    
+    <!-- Message code what begin-->
+    <!-- Message code what end-->
+    
+    <!-- Activity Request Code Begin -->
+    <!-- Activity Request Code End -->
+    
+</resources>

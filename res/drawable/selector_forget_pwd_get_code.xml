@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/shape_corners5_bebebe_stroke_7a7a7a" android:state_selected="true"/>
+    <item android:drawable="@drawable/shape_corners5_bebebe_stroke_7a7a7a" android:state_focused="true"/>
+    <item android:drawable="@drawable/shape_corners5_bebebe_stroke_7a7a7a" android:state_pressed="true"/>
+    <item android:drawable="@drawable/shape_corners5_e3e3e3_strike_7a7a7a"/>
+
+</selector>

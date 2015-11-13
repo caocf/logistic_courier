@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="sliding_menu_bg">#dd111111</color>
+    <color name="sliding_menu_bg_user">#111111</color>
+    <color name="sliding_menu_bg_items">#00000000</color>
+    <color name="split_line_ddf1f1f1">#ddf1f1f1</color>
+    <color name="split_line_sliding_menu">#cc111111</color>
+    <color name="activity_bg">#f5f5f5</color>
+    <color name="text_selector_sliding_menu">#009688</color>
+    
+    <color name="transparent">#00ffeebb</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="wait_dialog_bg">#44f1f1f1</color>
+    <color name="dialog_ok_normal">#dddddd</color>
+    <color name="dialog_ok_press">#eeaaaaaa</color>
+    <color name="text_color_hint">#d8d8d8</color>
+    <color name="c_2a418d">#2a418d</color>
+    <color name="c_242a39">#242a39</color>
+    <color name="c_bebebe">#bebebe</color>
+    <color name="c_e6e6e6">#e6e6e6</color>
+    <color name="c_98a2ab">#98a2ab</color>
+    <color name="c_3d62dd">#3d62dd</color>
+    <color name="c_464a57">#464a57</color>
+    <color name="c_ddf1f1f1">#ddf1f1f1</color>
+    <color name="c_e17b02">#e17b02</color>
+    <color name="c_a9a9a9">#a9a9a9</color>
+    <color name="c_8e8e8e">#8e8e8e</color>
+    <color name="c_dadada">#dadada</color>
+    <color name="c_90a0cc">#90a0cc</color>
+    <color name="c_295999">#295999</color>
+    <color name="c_7f7f7f">#7f7f7f</color>
+    <color name="c_f6f6f6">#f6f6f6</color>
+    <color name="c_dddddd">#dddddd</color>
+    <color name="c_dfdfdf">#dfdfdf</color>
+    <color name="c_666666">#666666</color>
+    <color name="c_e3e3e3">#e3e3e3</color>
+    <color name="c_7a7a7a">#7a7a7a</color>
+    <color name="c_c4c4c4">#c4c4c4</color>
+    <color name="c_d8d8d8">#d8d8d8</color>
+    
+
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="result_view">#b0000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="deep_bule_01">#285aa3</color>
+    <!-- 浅灰色 -->
+    <color name="light_grey">#e6e6e6</color>
+    <!-- 灰色 -->
+    <color name="gray">#a4a4a4</color>
+    <!-- 深灰色 2 -->
+    <color name="deep_gray_01">#9f9f9f</color>
+    <color name="red_01">#e03e46</color>
+
+    <color name="bgColor_alert_button_press">#EAEAEA</color>
+   
+</resources>

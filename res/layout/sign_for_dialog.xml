@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical|center_horizontal"
+    android:background="@drawable/shape_corners_solid_white_rect"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="280dp"
+        android:background="@drawable/shape_corners5_solid_f6f6f6_rect"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/sign_for_dialog_title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical|center_horizontal"
+            style="@style/text_style_15_black"
+            android:text="@string/sign_for_dialog_title"
+            />
+        
+         <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/c_dfdfdf" />
+
+        <LinearLayout
+            android:id="@+id/sign_for_dialog_layout_hand_write"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:paddingLeft="15dp"
+            android:background="@drawable/selector_signoff_item"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/sign_for_dialog_img_hand_write"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/hand_write_gray" />
+
+            <TextView
+                android:id="@+id/sign_for_dialog_hand_write"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/text_style_15_666666"
+                android:text="@string/sign_for_dialog_hand_write" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/c_dfdfdf" />
+
+        <LinearLayout
+            android:id="@+id/sign_for_dialog_layout_photo"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:paddingLeft="15dp"
+            android:background="@drawable/selector_signoff_item"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/sign_for_dialog_img_photo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/camera_gray" />
+
+            <TextView
+                android:id="@+id/sign_for_dialog_txt_photo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/text_style_15_666666"
+                android:text="@string/sign_for_dialog_take_photo" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/c_dfdfdf" />
+
+        <TextView
+            android:id="@+id/sign_for_dialog_txt_not_complete"
+            android:layout_width="match_parent"
+            android:background="@drawable/bg_alertbutton_bottom"
+            android:layout_height="55dp"
+            android:gravity="center_vertical"
+            android:paddingRight="5dp"
+            android:paddingLeft="20dp"
+            style="@style/text_style_13_bebebe"
+            android:text="@string/sign_for_dialog_unable" />
+    </LinearLayout>
+
+</LinearLayout>

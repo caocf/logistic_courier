@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+
+    <item
+        android:id="@+id/menu_handwriten_clear"
+        android:icon="@drawable/user_blue_big"
+        android:showAsAction="always"
+        android:title="@string/menu_handwritten_clear"/>
+    <item
+        android:id="@+id/menu_handwriten_ok"
+        android:icon="@drawable/user_blue_big"
+        android:showAsAction="always"
+        android:title="@string/menu_handwritten_ok"/>
+</menu>

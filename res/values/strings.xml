@@ -1,0 +1,189 @@
+<resources>
+    
+    <!-- App Begin -->
+    <string name="app_name">Fodel For Courier</string>
+    <string name="app_logo_name">Fodel For Courier</string>
+    <string name="api_version">1.0</string><!-- 后台接口版本号 -->
+    <string name="app_version_name">V1.0</string>
+    <string name="google_app_key">AIzaSyDMy4Qkdlq2jlYLSZA0MJx_tXFA7iw1npk</string>
+    <!-- google direction api不能使用Android app key -->
+    <string name="google_browser_key">AIzaSyA6YZTAxJBULOw3dRhZWmzZZ05-mYc0U_8</string>
+    <string name="umeng_app_key">561f5f63e0f55a4742000843</string>
+
+    <string name="umeng_channel">Channel ID</string>
+    <string name="project_number">151630797309</string>
+    <string name="notification_number">1337</string>
+    <!-- App End -->
+    
+    <!-- Activity Begin(跳转时传递的参数的key) -->
+    <string name="extra_unfinished_orders">orders</string>
+    <string name="extra_message">message</string>
+    <string name="extra_phone">phone</string>
+    <string name="extra_code">code</string>
+    <string name="extra_url">url</string>
+    <string name="extra_effect_order">effect_order</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="first_launch">First Launch</string>
+    <string name="editor_label_action_done">Submit</string>
+    <string name="editor_label_action_enter">Enter</string>
+    <string name="no_network">No network connection</string>
+    <!-- Activity End -->
+    
+    <!-- Dialog Tips Begin -->
+    <string name="dialog_tips_delete_message">Are you sure to delete this message?</string>
+    <string name="dialog_tips_order_been_taken">One of your order has been taken by other person! Maybe you should talk to your boss.</string>
+    <string name="dialog_tips_login_in_other_device">Login account on another device, you have to exit</string>
+    <string name="dialog_tips_forget_password_send_success">You had sended your phone number successfully, please wait for the code!</string>
+    <string name="dialog_tips_order_no_null">Order number can not be null!</string>
+    <string name="dialog_tips_order_not_found">Order can not found!</string>
+    <string name="dialog_tips_network_error">Be sure the network is valuable.Please try again.</string>
+    <string name="dialog_tips_unknow_error">Unknow erro, please try angin.</string>
+    <string name="dialog_tips_ask_open_gps">GPS is not open, would you like to start GPS?</string>
+    <!-- Dialog Tips End -->
+    
+    <!-- Toast Tips Begin -->
+    <string name="toast_tips_unknow_problem">Unknown mistake</string>
+    <string name="toast_tips_account_or_pwd_wrong">Incorrect user name or password</string>
+    <string name="wrong_pwd_tips">Sorry, wrong password.不再使用</string>
+    <string name="acount_be_frozen_tips">Your account was frozen!不再使用</string>
+    <string name="input_pwd_tips">Please input password!</string>
+    <string name="time_out_tips">Sorry,time out</string>
+    <string name="toast_tips_input_user_name">Please input your phone number.</string>
+    <string name="toast_tips_ask_for_exit">Again to exit.</string>
+    <string name="toast_tips_can_not_get_user_location">Sorry,can\'t get your location.</string>
+    <string name="toast_tips_can_not_code_the_pck">Sorry, can\'t find the location of this address</string>
+    <string name="toast_tips_sign_for_successful">Sign for successfully</string>
+    <string name="toast_tips_sign_for_failed">Failed to sign for, please try again.</string>
+    <string name="toast_tips_google_service_not_avaliable">Google Service is not valuable</string>
+    <string name="toast_tips_not_login_yet">You had login on other device, please login again.</string>
+    <string name="toast_tips_no_signature_picture">No signoff picture</string>
+    <string name="toast_tips_no_pwd_input">Please input password</string>
+    <string name="toast_tips_input_pwd_again">Please input password again</string>
+    <string name="toast_tips_retype_pwd_wrong">The new passwords are not consistent</string>
+    <string name="toast_tips_signfor_successfully">Sign for successfully</string>
+    <string name="toast_tips_order_been_sign">Order had been sign!</string>
+    <string name="toast_tips_geocode_address_null">Address can not be null!</string>
+    <string name="toast_tips_upload_portrait_failed">Failed to upload, please try again</string>
+    <string name="toast_tips_signfor_failed">Failed to sign off, please try again</string>
+    <string name="toast_tips_refresh_successfully">Refreshed successfully</string>
+    <string name="toast_tips_refresh_failed">Failed to refresh</string>
+    <string name="toast_tips_geocode_failed">Can\'t locate the package address</string>
+    <string name="toast_tips_order_already_exist">Order already exist!</string>
+    <string name="register_push_id_faild">注册pushId失败</string>
+    <string name="toast_tips_order_search_input_order_number">Please input order number.</string>
+    <string name="toast_tips_forget_password_input_receive_code">Please input the code.</string>
+    <string name="toast_tips_scan_order_code_null">Please input the order number.</string>
+    
+    <string name="toast_tips_route_zero_result">Zero results found</string>
+    <string name="toast_tips_route_max_waypoints_exceeded">Max waypointsexceeded</string>
+    <string name="toast_tips_route_invalid_request">Invalid request</string>
+    <string name="toast_tips_route_over_query_limit">Over query limit</string>
+    <string name="toast_tips_route_request_denied">Request denied</string>
+    <string name="toast_tips_route_unknow_error">Unknow error</string>
+    <string name="toast_tips_route_not_found">Can not find the route</string>
+    <!-- Toast Tips Begin -->
+
+    <!-- Login Begin -->
+    <string name="login_title">Login</string>
+    <string name="login_user_name_tips">UserName</string>
+    <string name="login_password_tips">PassWord</string>
+    <string name="login_ok_btn">Login</string>
+    <string name="login_forgot_password">Forgot password?</string>
+    <string name="activity_forget_password_title">Forgot Password</string>
+    <string name="activity_forget_password_send">Send</string>
+    <string name="forget_password_submit">Submit</string>
+    <string name="forget_password_security_code">security code</string>
+    <string name="forget_password_email">Enter a valid email</string>
+    <string name="change_password_title">Password Reset</string>
+    <string name="change_password_confirm">Confirm</string>
+    <string name="change_password_new_pwd">New password</string>
+    <string name="change_password_retype">Retype password</string>
+    <string name="activity_login_login_failed">Login failed, please try again.</string>
+    <!-- Login End -->
+    
+    <!-- Home Page Begin -->
+    <string name="home_tag_unfinished">Unfinished</string>
+    <string name="home_tag_completed">Completed</string>
+    <string name="home_tag_user_name">Sam</string>
+    <string name="home_unfinished_sign_for">Signoff</string>
+    <string name="order_query_title">Order Query</string>
+    <string name="activity_logistics_detail_title">Order Detail</string>
+    <string name="footer_view_home_loading">Loading&#8230;</string>
+    <string name="footer_view_home_nomore_data">No more data&#8230;</string>
+    <string name="home_order_nomore_completed_order">no more data</string>
+    <string name="home_order_nomore_unfinished_order">no more data</string>
+    <string name="failed_to_scan_barcode">Failed to scan Barcode</string>
+    <string name="input_barcode_tips">Enter the code number</string>
+    <string name="activity_signature_title">Signature Picture</string>
+    <string name="activity_home_new_start_address">My Location</string>
+    <!-- Home Page End -->
+    
+    <!-- Menu item begin -->
+   <string name="sliding_menu_txt_record">MY RECORD</string>
+   <string name="sliding_menu_txt_all">MY ORDER</string>
+   <string name="sliding_menu_txt_help">HELP</string>
+   <string name="sliding_menu_about_me">ABOUT ME</string>
+   <string name="sliding_menu_txt_search">ORDER SEARCH</string>
+    <string name="menu_message">Message</string>
+    <string name="menu_log_off">Log Out</string>
+    <string name="menu_handwritten_clear">Clear</string>
+    <string name="menu_handwritten_ok">OK</string>
+    <string name="menu_history">Record</string>
+    <string name="menu_search">Search</string>
+    <!-- Menu item end -->
+   
+   <!-- User Center Begin -->
+   <string name="gender_men">Male</string>
+   <string name="gender_women">Female</string>
+   <string name="gender_unknow">Unknow</string>
+   <string name="activity_user_info_title">About Me</string>
+   <string name="activity_message_center_title">Notification Center</string>
+   <string name="activity_user_info_portrait">Head Portrait</string>
+   <string name="activity_user_info_name">Name</string>
+   <string name="activity_user_info_gender">Gender</string>
+   <string name="activity_user_info_telephone">Phone</string>
+   <string name="activity_user_info_address">Address</string>
+   <string name="change_portrait_dialog_take_photo">Take Photo</string>
+   <string name="change_portrait_dialog_select_photo">Choose from Photos</string>
+   <string name="activity_user_center_txt_record">My Record</string>
+   <string name="activity_user_center_txt_history_record">All</string>
+   <string name="activity_message_detail_title">Message Detail</string>
+   <string name="activity_message_center_no_message">No Message</string>
+   <!-- User Center End -->
+   
+   <!-- Order Begin -->
+   <string name="order_search_tips">Enter the order number</string>
+   <string name="logistics_detail_label">Logistics information</string>
+   <string name="activity_abnormal_order_radio_lost">Goods lost</string>
+   <string name="activity_abnormal_order_radio_cargo">Goods broken</string>
+   <string name="activity_abnormal_order_address_error">Address error</string>
+   <string name="activity_abnormal_order_phone_error">Phone error</string>
+   <string name="activity_abnormal_order_no_one_sign">No one signs off</string>
+   <string name="activity_abnormal_order_case">Abnormal case</string>
+   <string name="activity_abnormal_order_case_other">Other reasons</string>
+   <string name="activity_abnormal_order_title">Abnormal Order</string>
+   <string name="activity_abnormal_order_other_reason_tips">Input other reason here</string>
+   <string name="sign_for_dialog_title">Customer Signoff</string>
+   <string name="sign_for_dialog_take_photo">Photo</string>
+   <string name="sign_for_dialog_hand_write">Handwrite</string>
+   <string name="sign_for_dialog_unable">Unable to complete delivery>></string>
+   <string name="abnormal_order_send_no_reason_tips">Please choose or input one reason</string>
+   <string name="abnormal_order_send_error">Can not upload the reason, please try again.</string>
+   <string name="handwritten_save_bmp_failed_tips">Sorry, failed to save hand write</string>
+   <string name="activity_unfinished_order_list_title">Unfinished Order</string>
+   <string name="activity_record_title">My Record</string>
+   <string name="activity_order_history_title">My Order</string>
+   <!-- Order End -->
+   
+   <!-- zxing begin -->
+   <string name="scan_text">Scan Barcode</string>
+   <string name="processing">Processing</string>
+   <!-- zxing end -->
+   
+   <string name="content_description">image description</string>
+</resources>
+
+
+
+

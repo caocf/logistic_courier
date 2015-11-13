@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="@color/sliding_menu_bg"
+    android:orientation="vertical" >
+
+  
+
+        <LinearLayout
+            android:id="@+id/fragment_slidingmenu_layout_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/sliding_menu_bg_user"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="40dp"
+            android:paddingTop="40dp" >
+
+            <ImageView
+                android:id="@+id/fragment_slidingmenu_user_icon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/default_portrait"
+                android:contentDescription="@string/content_description" />
+
+            <TextView
+                android:id="@+id/fragment_slidingmenu_user_name"
+                style="@style/text_style_18_white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/sliding_menu_bg_items"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/split_line_sliding_menu" />
+
+            <LinearLayout
+                android:id="@+id/fragment_slidingmenu_layout_about_me"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/menu_item_selector"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="15dp" >
+
+                <ImageView
+                    android:id="@+id/fragment_slidingmenu_order_about_me"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/menu_adbout_me_selector"
+                    android:contentDescription="@string/content_description" />
+
+                <TextView
+                    android:id="@+id/fragment_slidingmenu_about_me"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/sliding_menu_about_me"
+                    android:textColor="@drawable/selector_text_white_green"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/fragment_slidingmenu_layout_search"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/menu_item_selector"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="15dp" >
+
+                <ImageView
+                    android:id="@+id/fragment_slidingmenu_search"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/selector_home_search"
+                    android:contentDescription="@string/content_description" />
+
+                <TextView
+                    android:id="@+id/fragment_slidingmenu_search_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/sliding_menu_txt_search"
+                    android:textColor="@drawable/selector_text_white_green"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/fragment_slidingmenu_layout_record"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/menu_item_selector"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="15dp" >
+
+                <ImageView
+                    android:id="@+id/fragment_slidingmenu_record_history"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/selector_my_record"
+                    android:contentDescription="@string/content_description" />
+
+                <TextView
+                    android:id="@+id/fragment_slidingmenu_record_history_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/sliding_menu_txt_record"
+                    android:textColor="@drawable/selector_text_white_green"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/fragment_slidingmenu_layout_order_completed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/menu_item_selector"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="15dp" >
+
+                <ImageView
+                    android:id="@+id/fragment_slidingmenu_order_completed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/selector_my_order"
+                    android:contentDescription="@string/content_description" />
+
+                <TextView
+                    android:id="@+id/fragment_slidingmenu_order_completed_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/sliding_menu_txt_all"
+                    android:textColor="@drawable/selector_text_white_green"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/fragment_slidingmenu_layout_help"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/menu_item_selector"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="15dp" >
+
+                <ImageView
+                    android:id="@+id/fragment_slidingmenu_help_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/menu_help_selector"
+                    android:contentDescription="@string/content_description" />
+
+                <TextView
+                    android:id="@+id/fragment_slidingmenu_help_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/sliding_menu_txt_help"
+                    android:textColor="@drawable/selector_text_white_green"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </LinearLayout>
+    
+
+</LinearLayout>

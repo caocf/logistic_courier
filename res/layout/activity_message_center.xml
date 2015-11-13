@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_bg"
+    android:orientation="vertical" >
+
+    <include layout="@layout/view_simple_custom_header_2" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="3dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/activity_message_center_no_message"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/activity_message_center_no_message"
+            android:textColor="@color/text_color_hint"
+            android:textSize="20sp" />
+
+        <ListView
+            android:id="@+id/activity_message_center_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/dp12"
+            android:divider="@null"
+            android:dividerHeight="12dp" />
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_corners10_solid_white_rect"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_corners_solid_white_rect"
+            android:minHeight="180dp"
+            android:minWidth="286dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/simple_question_dialog_info"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="25dp"
+                android:layout_marginTop="25dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical|center_horizontal"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="#7f7f7f"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_corners_solid_white_rect"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/simple_question_dialog_ok"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight="1"
+                    android:layout_marginRight="1dp"
+                    android:background="@drawable/selector_btn_color_bg_corner_rect"
+                    android:text="@string/ok"
+                    android:textColor="#295999"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/simple_question_dialog_cancel"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="1dp"
+                    android:background="@drawable/selector_btn_color_bg_corner_rect"
+                    android:text="@string/cancel"
+                    android:textColor="#295999"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
